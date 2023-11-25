@@ -1,12 +1,12 @@
 <template>
-  <Main>
+  <MainLayout>
     <header class="mv-header mv-header-bg px-3 px-sm-4">
       <h1 class="text-primary fw-bold">Legal</h1>
       <p class="text-muted fw-bold my-2 lh-base">
         Policies and observation of legal requirements
       </p>
     </header>
-    <main class="container py-5">
+    <main class="container px-4 py-2 my-4 py-md-5 my-md-2">
       <div class="card mb-3">
         <div class="card-header">
           <h5 class="fw-bold text-primary">Legal</h5>
@@ -50,9 +50,9 @@
         </div>
       </div>
     </main>
-  </Main>
+  </MainLayout>
 </template>
-  
+
 <script>
 export default {
   metaInfo: {
@@ -60,6 +60,6 @@ export default {
   },
 };
 </script>
-  
+
 <style>
 </style>

@@ -1,10 +1,6 @@
 <template>
-  <nav
-    class="navbar navbar-expand-md navbar-light bg-white shadow-sm px-md-0 px-sm-2 py-md-2 py-sm-2"
-  >
-    <div
-      class="container-fluid md:row d-md-flex justify-content-between px-md-5"
-    >
+  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm px-md-0 px-sm-2 py-md-2 py-sm-2">
+    <div class="container-fluid md:row d-md-flex justify-content-between px-md-5">
       <div class="d-flex justify-content-start align-items-center gap-2">
         <g-image alt="logo" src="~/assets/png/nav-logo.png" width="35" />
         <strong>
