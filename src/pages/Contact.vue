@@ -3,7 +3,7 @@
     <header class="mv-header mv-header-bg px-3 px-sm-4">
       <h1 class="text-primary fw-bold">Contact</h1>
       <p class="text-muted fw-bold my-2 lh-base">
-        Multividas Contact Information
+        Our support team is at your service round the clock, ready to assist you and address any issues you may have.
       </p>
     </header>
     <main class="container px-4 py-2 my-4 py-md-5 my-md-2">
