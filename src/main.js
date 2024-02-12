@@ -83,7 +83,7 @@ export default function (Vue, { router, head, isClient }) {
     content: 'summary'
   }, {
     name: 'twitter:site',
-    content: '@multividaseng'
+    content: '@multividascom'
   }, {
     name: 'twitter:title',
     content: 'Multividas - Social Media and Blogging Platform'
