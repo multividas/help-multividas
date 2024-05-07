@@ -103,7 +103,7 @@
           >
             <li class="list-inline-item cp">
               <a
-                href="https://www.facebook.com/multividasdotcom/"
+                href="https://www.facebook.com/multividascom/"
                 target="_blank"
               >
                 <svg

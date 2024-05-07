@@ -1,8 +1,16 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm px-md-0 px-sm-2 py-md-2 py-sm-2">
-    <div class="container-fluid md:row d-md-flex justify-content-between px-md-5">
+  <nav
+    class="navbar navbar-expand-md navbar-light bg-white shadow-sm px-md-0 px-sm-2 py-md-2 py-sm-2"
+  >
+    <div
+      class="container-fluid md:row d-md-flex justify-content-between px-md-5"
+    >
       <div class="d-flex justify-content-start align-items-center gap-2">
-        <g-image alt="multividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas" src="~/assets/png/nav-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.svg" width="32" />
+        <g-image
+          alt="multividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas"
+          src="~/assets/png/nav-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.svg"
+          width="32"
+        />
         <strong>
           <g-link to="/" class="navbar-brand text-primary fw-bold fs-4">Help Center</g-link>
         </strong>
@@ -42,17 +50,16 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <g-link class="dropdown-item my-2" to="/premium" exact
-                  >Premium</g-link
-                >
+                <g-link class="dropdown-item my-2" to="/premium" exact>Premium</g-link>
               </li>
               <li>
                 <g-link
                   class="dropdown-item mb-2"
                   to="/premium/verified-organizations"
                   exact
-                  >Verified Organizations</g-link
                 >
+                  Verified Organizations
+                </g-link>
               </li>
             </ul>
           </li>
@@ -113,8 +120,9 @@
                   @click="redirectRoute('/web')"
                   :class="{ 'active--exact active': $route.path === '/web' }"
                   role="button"
-                  >Web</span
                 >
+                  Web
+                </span>
               </li>
               <li class="nav-item border-bottom w-100 w-full text-center">
                 <span
@@ -124,8 +132,9 @@
                     'active--exact active': $route.path === '/moderation',
                   }"
                   role="button"
-                  >Moderation</span
                 >
+                  Moderation
+                </span>
               </li>
               <li class="nav-item border-bottom w-100 w-full text-center">
                 <span
@@ -135,8 +144,9 @@
                     'active--exact active': $route.path === '/terminology',
                   }"
                   role="button"
-                  >Terminology</span
                 >
+                  Terminology
+                </span>
               </li>
               <li class="nav-item border-bottom w-100 w-full text-center">
                 <span
@@ -146,8 +156,9 @@
                     'active--exact active': $route.path === '/community',
                   }"
                   role="button"
-                  >Community</span
                 >
+                  Community
+                </span>
               </li>
               <li class="nav-item border-bottom w-100 w-full text-center">
                 <span
@@ -155,8 +166,9 @@
                   @click="redirectRoute('/legal')"
                   :class="{ 'active--exact active': $route.path === '/legal' }"
                   role="button"
-                  >Legal</span
                 >
+                  Legal
+                </span>
               </li>
               <li class="nav-item border-bottom w-100 w-full text-center">
                 <span
@@ -166,12 +178,11 @@
                     'active--exact active': $route.path === '/contact',
                   }"
                   role="button"
-                  >Contact</span
                 >
+                  Contact
+                </span>
               </li>
-              <li
-                class="nav-item dropdown border-bottom w-100 w-full text-center"
-              >
+              <li class="nav-item dropdown border-bottom w-100 w-full text-center">
                 <span
                   class="nav-link"
                   @click="redirectRoute('/premium')"
@@ -180,12 +191,11 @@
                   }"
                   role="button"
                   exact
-                  >Premium</span
                 >
+                  Premium
+                </span>
               </li>
-              <li
-                class="nav-item dropdown border-bottom w-100 w-full text-center"
-              >
+              <li class="nav-item dropdown border-bottom w-100 w-full text-center">
                 <span
                   class="nav-link"
                   @click="redirectRoute('/premium/verified-organizations')"
@@ -194,8 +204,9 @@
                   }"
                   role="button"
                   exact
-                  >Verified Organizations</span
                 >
+                  Verified Organizations
+                </span>
               </li>
               <li class="nav-item w-100 w-full text-center my-3">
                 <a
