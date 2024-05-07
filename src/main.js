@@ -1,3 +1,5 @@
+// css
+import '~/assets/css/styles.css';
 // main
 import MainLayout from '~/layouts/Main.vue'
 // footer

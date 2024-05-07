@@ -46,6 +46,22 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
+              Multividas Settings
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <g-link class="dropdown-item my-2" to="/settings" exact>Settings</g-link>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link text-xxs dropdown-toggle"
+              href="javascript:void(0)"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Multividas Premium
             </a>
             <ul class="dropdown-menu">
@@ -60,6 +76,22 @@
                 >
                   Verified Organizations
                 </g-link>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link text-xxs dropdown-toggle"
+              href="javascript:void(0)"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              MultiChat
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <g-link class="dropdown-item my-2" to="/multichat/security" exact>MultiChat Security</g-link>
               </li>
             </ul>
           </li>

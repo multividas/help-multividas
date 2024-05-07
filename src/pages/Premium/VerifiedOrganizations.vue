@@ -6,21 +6,17 @@
     </header>
     <main class="container px-4 py-2 my-4 py-md-5 my-md-2">
       <div class="card">
+        <div class="card-header">
+          <h3 class="text-primary fw-bold">Get verification badge for enhanced benefits.</h3>
+        </div>
         <div class="card-body">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
-            repudiandae fuga quo tenetur deserunt ad culpa, odio eaque
-            consectetur laudantium vero quia veniam provident at architecto
-            debitis molestiae perferendis aut sapiente incidunt consequuntur
-            quae sequi dolore rem. Nulla sint, facilis ut laudantium praesentium
-            vero eum accusamus quo perspiciatis nam sapiente molestias amet quam
-            nihil doloribus ea, modi quia suscipit similique possimus molestiae
-            quis, reprehenderit optio temporibus? Earum dolorem incidunt
-            possimus impedit maiores, eaque atque error necessitatibus nesciunt
-            adipisci odit aliquam quidem molestias itaque. Maiores laborum quod
-            sed dolore dolorum aspernatur autem sint eligendi voluptatibus,
-            cupiditate deserunt corrupti facere quos asperiores!
-          </p>
+          <ul class="multividas-list mx-3">
+            <li class="px-3 mb-3">Get a verification badge</li>
+            <li class="px-3 mb-3">Prioritized rankings in explore and search</li>
+            <li class="px-3 mb-3">Priority customer support</li>
+            <li class="px-3 mb-3">X2 Boost your Threads</li>
+            <li class="px-3">Prioritized profile recommendations and connect with more followers.</li>
+          </ul>
         </div>
       </div>
     </main>
@@ -35,5 +31,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style scoped></style>
