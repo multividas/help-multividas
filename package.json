@@ -1,16 +1,19 @@
 {
   "name": "help-multividas",
-  "private": true,
+  "type": "module",
   "version": "1.0.0",
-  "description": "With Multividas.com you can share short texts and posts, leaving comments and having discussions on threads.",
+  "license": "MIT",
+  "description": "With Multividas, you can share threads, publish articles and news.",
   "keywords": [
     "multividas",
-    "multividas blogs",
-    "multividas threads",
-    "multividas api documentation"
+    "multividas help"
   ],
-  "author": "soulaimane yahya <contact@soulaimaneyahya.com> (https://soulaimaneyahya.com/)",
-  "license": "MIT",
+  "authors": [
+    {
+      "name": "Multividas",
+      "email": "multividasdotcom@gmail.com"
+    }
+  ],
   "scripts": {
     "develop": "gridsome develop",
     "build": "gridsome build",
@@ -19,6 +22,14 @@
   "dependencies": {
     "bootstrap": "^5.3.2",
     "gridsome": "^0.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/multividas/help-multividas/issues"
+  },
+  "homepage": "https://github.com/multividas/help-multividas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multividas/help-multividas.git"
   },
   "engines": {
     "nvm": "16",
