@@ -1,10 +1,6 @@
 <template>
-  <nav
-    class="navbar navbar-expand-md navbar-light bg-white shadow-sm px-md-0 px-sm-2 py-md-2 py-sm-2"
-  >
-    <div
-      class="container-fluid md:row d-md-flex justify-content-between px-md-5"
-    >
+  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm px-md-0 px-sm-2 py-md-2 py-sm-2">
+    <div class="container-fluid md:row d-md-flex justify-content-between px-md-5">
       <div class="d-flex justify-content-start align-items-center gap-2">
         <g-image
           alt="multividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threadsmultividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas"
@@ -214,6 +210,18 @@
                   Contact
                 </span>
               </li>
+              <li class="nav-item border-bottom w-100 w-full text-center">
+                <span
+                  class="nav-link"
+                  @click="redirectRoute('/settings')"
+                  :class="{
+                    'active--exact active': $route.path === '/settings',
+                  }"
+                  role="button"
+                >
+                  Settings
+                </span>
+              </li>
               <li class="nav-item dropdown border-bottom w-100 w-full text-center">
                 <span
                   class="nav-link"
@@ -238,6 +246,19 @@
                   exact
                 >
                   Verified Organizations
+                </span>
+              </li>
+              <li class="nav-item dropdown border-bottom w-100 w-full text-center">
+                <span
+                  class="nav-link"
+                  @click="redirectRoute('/multichat/security')"
+                  :class="{
+                    active: $route.path === '/multichat/security',
+                  }"
+                  role="button"
+                  exact
+                >
+                  MultiChat Security
                 </span>
               </li>
               <li class="nav-item w-100 w-full text-center my-3">
