@@ -1,0 +1,37 @@
+{
+  "name": "help-multividas",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "With Multividas, you can share threads, publish articles and news.",
+  "keywords": [
+    "multividas",
+    "multividas help"
+  ],
+  "authors": [
+    {
+      "name": "Multividas",
+      "email": "multividasdotcom@gmail.com"
+    }
+  ],
+  "scripts": {
+    "dev": "gridsome develop",
+    "build": "gridsome build",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "gridsome": "^0.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/multividas/help-multividas/issues"
+  },
+  "homepage": "https://github.com/multividas/help-multividas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multividas/help-multividas.git"
+  },
+  "engines": {
+    "nvm": "16",
+    "node": "^16"
+  }
+}

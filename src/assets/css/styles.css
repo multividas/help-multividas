@@ -1,0 +1,11 @@
+ul.multividas-list {
+  list-style-type: disc;
+}
+
+li.multividas-list-item {
+  margin-bottom: 0.5rem;
+}
+
+li.multividas-list-item:last-child {
+  margin-bottom: 0;
+}
