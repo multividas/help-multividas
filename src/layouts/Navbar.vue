@@ -89,9 +89,6 @@
               <li class="drodpwn-menu-item">
                 <g-link class="dropdown-item my-2" to="/multichat/security" exact>MultiChat Security</g-link>
               </li>
-              <li class="drodpwn-menu-item">
-                <g-link class="dropdown-item my-2" to="/multichat/settings" exact>MultiChat Settings</g-link>
-              </li>
             </ul>
           </li>
           <li class="nav-item">
